@@ -49,7 +49,8 @@
     "t-component": "cristiandouce/t#chained-tokens",
     "type-component": "*",
     "merge-util": "0.0.1",
-    "node-path": "0.0.3"
+    "node-path": "0.0.3",
+    "superagent": "~0.15.7"
   },
   "devDependencies": {},
   "main": "pdr",
