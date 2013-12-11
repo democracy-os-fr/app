@@ -53,7 +53,8 @@
     "t-component": "1.0.0",
     "type-component": "0.0.1",
     "merge-util": "0.1.0",
-    "node-path": "0.0.3"
+    "node-path": "0.0.3",
+    "superagent": "~0.15.7"
   },
   "devDependencies": {},
   "main": "pdr",

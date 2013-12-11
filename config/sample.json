@@ -39,5 +39,20 @@
   "organization name" : "DemocracyOS on GitHub",
   "organization url" : "https://github.com/DemocracyOS/app",
   "staff": [],
-  "google analytics tracking id" : ""
+  "google analytics tracking id" : "",
+  "netid": {
+    "base url": "netid-testing.herokuapp.com",
+    "client id": "some-client-id-from-your-provider",
+    "client secret": "some-client-secret-from-your-provider",
+    "endpoints": {
+      "request token": {
+        "method": "POST",
+        "path": "/oauth/v2/token"
+      },
+      "verified identity": {
+        "method": "POST",
+        "path": "/api/verify"
+      }
+    }
+  }
 }
