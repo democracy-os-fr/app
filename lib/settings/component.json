@@ -1,0 +1,27 @@
+{
+  "name": "settings",
+  "description": "Account page",
+  "dependencies": {
+    "cristiandouce/events": "*",
+    "component/emitter": "*",
+    "component/classes": "*",
+    "visionmedia/page.js": "*",
+    "visionmedia/jade": "*",
+    "yields/empty": "*",
+    "yields/serialize": "*",
+    "cristiandouce/query": "*"
+  },
+  "local": [
+    "regexps",
+    "citizen",
+    "request",
+    "title",
+    "render",
+    "settings-profile",
+    "settings-password"
+  ],
+  "scripts": [ "settings.js" ],
+  "styles": [ "settings.css", "settings-responsive.css" ],
+  "templates": [ "settings-container.jade"],
+  "main": "settings.js"
+}
