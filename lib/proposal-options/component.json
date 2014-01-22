@@ -16,7 +16,7 @@
     "discore/closest": "0.1.2",
     "gvilarino/autocomplete": "fb4ee"
   },
-  "local": [ "citizen", "request" ],
+  "local": [ "citizen", "request", "render", "netid-templates" ],
   "scripts": [ "proposal-options.js" ],
   "templates": [ "options.jade" ],
   "styles": [ "proposal-options.styl" ],

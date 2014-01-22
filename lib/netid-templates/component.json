@@ -1,0 +1,13 @@
+{
+  "name": "netid-templates",
+  "description": "templates for the netid integration",
+  "dependencies": {
+    "visionmedia/jade": "*"
+  },
+  "local": [ ],
+  "scripts": [ "index.js" ],
+  "templates": [ "identity-not-verified.jade" ],
+  "styles": [ "identity-not-verified.css" ],
+  "images": [ ],
+  "main": "index.js"
+}
