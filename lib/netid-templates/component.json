@@ -6,7 +6,7 @@
   },
   "local": [ ],
   "scripts": [ "index.js" ],
-  "templates": [ "identity-not-verified.jade" ],
+  "templates": [ "identity-not-verified.jade", "identity-verification-error.jade" ],
   "styles": [ "identity-not-verified.css" ],
   "images": [ ],
   "main": "index.js"
