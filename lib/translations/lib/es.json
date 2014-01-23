@@ -155,6 +155,9 @@
   "Downvote" : "No aporta al debate",
   "Argument is limited to 4096 characters": "El argumento no puede exceder los 4096 caracteres",
   "Argument cannot be empty": "El argumento no puede estar vacío",
+  
+  "You have not verified your identity yet": "Aún no has verificado tu identidad",
+  "An error was produced trying to verify your identity, please try again later": "Se ha producido un error intentando validar tu identidad, por favor inténtalo de nuevo más tarde",
 
   "To not take part on the citizen's decision": "Para no influenciar la decisión del ciudadano",
   "To respect parlament methodology": "Para respetar la metodología de la legislatura",
@@ -218,5 +221,4 @@
 
   "admin-tags-form.message.onsuccess": "Etiqueta guardada exitosamente",
   "admin-tags-form.message.validation.name-required": "Nombre requerido"
-
 }
