@@ -15,7 +15,8 @@
     "yields/empty": "0.0.1",
     "component/t": "1.0.0",
     "discore/closest": "0.1.2",
-    "gvilarino/autocomplete": "fb4ee"
+    "gvilarino/autocomplete": "fb4ee",
+    "yields/empty": "0.0.1"
   },
   "local": [ "citizen", "request", "render", "netid-templates" ],
   "scripts": [ "proposal-options.js" ],
