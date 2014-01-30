@@ -3,7 +3,8 @@
   "description": "templates for the netid integration",
   "dependencies": {
     "visionmedia/jade": "*",
-    "cristiandouce/query": "0.0.1"
+    "cristiandouce/query": "0.0.1",
+    "yields/empty": "0.0.1"
   },
   "local": [ "render" ],
   "scripts": [ "index.js" ],
