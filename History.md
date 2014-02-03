@@ -1,4 +1,14 @@
 
+0.2.9 / 2014-01-30
+==================
+
+ * Add support for inheritance locals merge at render
+
+0.2.8 / 2014-01-30
+==================
+
+ * Bump merge-util version
+
 0.2.7 / 2014-01-30
 ==================
 
