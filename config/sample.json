@@ -56,10 +56,6 @@
       "create identity": {
         "method": "POST",
         "path": "/api/create"
-      },
-      "verify identity email": {
-        "method": "POST",
-        "path": "/api/verify-email"
       }
     }
   }
