@@ -41,6 +41,11 @@
   "Your password was successfuly updated": "Your password was successfuly updated",
   "Current password is invalid": "Current password is invalid",
 
+  "settings.identity-validation.title": "Identity validation",
+  "settings.identity-validation.label": "Activate your identity validation",
+  "settings.identity-validation.disabled": "Disabled",
+  "settings.identity-validation.enabled": "Enabled",
+
   "sidebar.open": "Open",
   "sidebar.closed": "Closed",
   "sidebar.hide-voted": "Hide voted by me",

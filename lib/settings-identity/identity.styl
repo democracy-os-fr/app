@@ -1,0 +1,54 @@
+/**
+ * Toggle UI
+ *
+ * div.toggle.on
+ *   label.toggle-on-label
+ *   div.toggle-switch
+ *   label.toggle-off-label
+ */
+:root
+  var-switch-circle-size: 2em
+  var-switch-size: 3.5em
+
+.toggle-container
+  position: relative
+
+  .toggle
+    position: absolute
+    left: 0
+    top: 0
+    height: var(switch-circle-size)
+    width: var(switch-size)
+    border-radius: var(switch-circle-size)
+    &.on
+      color: white
+      background: #111
+      .toggle-switch
+        margin-left: -var(switch-circle-size)
+    &.off
+      color: #bbb
+      background: #eaeaea
+
+  .toggle-on-label,
+  .toggle-off-label
+    height: var(switch-circle-size)
+
+  .toggle-on-label
+    right: var(switch-circle-size)
+
+  .toggle-off-label
+    left: var(switch-circle-size)
+
+  .toggle-switch
+    height: var(switch-circle-size)
+    width: var(switch-circle-size)
+    border-radius: var(switch-circle-size)
+    background-color: white
+    background-color: rgba(255, 255, 255, 0.98)
+
+  span.toggle-status
+    margin-left: math(var(switch-size)*1.3)
+    height: var(switch-circle-size)
+    line-height: var(switch-circle-size)
+    text-transform: uppercase
+    font-weight: 600
