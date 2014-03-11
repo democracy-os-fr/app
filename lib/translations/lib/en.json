@@ -45,6 +45,7 @@
   "settings.identity-validation.label": "Activate your identity validation",
   "settings.identity-validation.disabled": "Disabled",
   "settings.identity-validation.enabled": "Enabled",
+  "settings.identity-validation.process-started": "Your identity validation process started, now go to...",
 
   "sidebar.open": "Open",
   "sidebar.closed": "Closed",
