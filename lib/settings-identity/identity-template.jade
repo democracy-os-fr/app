@@ -4,10 +4,10 @@
       .circle
         i.icon-identity
       h1= t('settings.identity-validation.title')
-    form.form(action="/settings/identity", method="post", role="form", autocomplete="off")
+    .form
       ul.form-messages
       .form-group
         label #{t('settings.identity-validation.label')}
         #identity-enable.toggle-container
-          span.toggle-status asd
-      .form-group: input.btn.btn-success.btn-block.btn-lg.hide(type='submit', tabindex=4, value=t('Save'))
+          span.toggle-status
+      .result-messages
