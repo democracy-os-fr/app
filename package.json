@@ -54,7 +54,7 @@
     "type-component": "0.0.1",
     "merge-util": "0.1.0",
     "node-path": "0.0.3",
-    "superagent": "~0.15.7"
+    "superagent": "0.17.0"
   },
   "devDependencies": {},
   "main": "pdr",
