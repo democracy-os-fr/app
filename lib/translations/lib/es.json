@@ -46,6 +46,7 @@
   "settings.identity-validation.disabled": "Desactivado",
   "settings.identity-validation.enabled": "Activado",
   "settings.identity-validation.process-started": "El proceso de validación de tu identidad ha comenzado, ahora dirígete a...",
+  "settings.identity-validation.request-error": "Error en la comunicación, vuelve a intentarlo más tarde",
 
   "sidebar.open": "Abiertos",
   "sidebar.closed": "Cerrados",

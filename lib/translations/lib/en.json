@@ -46,6 +46,7 @@
   "settings.identity-validation.disabled": "Disabled",
   "settings.identity-validation.enabled": "Enabled",
   "settings.identity-validation.process-started": "Your identity validation process started, now go to...",
+  "settings.identity-validation.request-error": "Request error, try again later",
 
   "sidebar.open": "Open",
   "sidebar.closed": "Closed",
