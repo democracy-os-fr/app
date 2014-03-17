@@ -10,7 +10,7 @@
     "yields/serialize": "0.2.0",
     "yields/empty": "0.0.1",
     "cristiandouce/query": "0.0.1",
-    "component/t": "1.0.0",
+    "component/t": "1.0.0"
   },
   "local": [
     "citizen",
