@@ -42,9 +42,10 @@
   "Current password is invalid": "La contraseña actual no es correcta",
 
   "settings.identity-validation.title": "Validación de identidad",
-  "settings.identity-validation.label": "Activa la validación de tu identidad",
-  "settings.identity-validation.disabled": "Desactivado",
-  "settings.identity-validation.enabled": "Activado",
+  "settings.identity-validation.label": "Inicia el proceso de validación de tu identidad",
+  "settings.identity-validation.start": "Iniciar",
+  "settings.identity-validation.processing": "Procesando...",
+  "settings.identity-validation.started": "Iniciado",
   "settings.identity-validation.process-started": "El proceso de validación de tu identidad ha comenzado, ahora dirígete a...",
   "settings.identity-validation.request-error": "Error en la comunicación, vuelve a intentarlo más tarde",
   "settings.identity-validation.error-verifying": "Se produjo un error verificando si su identidad está validada",
