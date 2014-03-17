@@ -19,7 +19,8 @@
     "render",
     "settings-profile",
     "settings-password",
-    "settings-identity"
+    "settings-identity",
+    "config"
   ],
   "scripts": [ "settings.js" ],
   "styles": [ "settings.css", "settings-sidebar.css", "settings-heading.css", "settings-responsive.css" ],
