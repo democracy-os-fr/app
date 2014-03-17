@@ -59,5 +59,6 @@
       }
     }
   },
-  "netid enabled": false
+  "netid enabled": false,
+  "netid instructions url": "http://wiki.partidodelared.org/"
 }
