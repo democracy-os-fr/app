@@ -10,7 +10,7 @@
   position: relative
 
   .btn-success.btn-start
-    width: 40%
+    width: auto
     margin: 0 auto
     transition: background-color 0.5s ease
     border: 2px solid #27ae60
@@ -21,13 +21,23 @@
       border: 2px solid #27ae60
       cursor: default
 
+  .verified,
   .loading
     color: #27ae60
-    margin-left: 12px
+    position: absolute
+    top: 12px
+    right: 24%
+
+  .loading
     animation-name: rotate
     animation-duration: 1.2s
     animation-iteration-count: infinite
     transition-animation-timing-function: linear
-    position: absolute
-    top: 12px
-    right: 24%
+
+.identity-status
+  margin-top: 12px
+
+  .status
+    font-weight: bold
+    margin-left: 4px
+    text-transform: uppercase

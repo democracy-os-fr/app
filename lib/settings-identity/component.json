@@ -16,10 +16,12 @@
     "citizen",
     "render",
     "request",
-    "regexps"
+    "regexps",
+    "config"
   ],
   "templates": [
-    "identity-template.jade"
+    "identity-template.jade",
+    "identity-status.jade"
   ],
   "styles": [
     "identity.styl"
