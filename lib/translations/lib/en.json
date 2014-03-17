@@ -47,6 +47,9 @@
   "settings.identity-validation.enabled": "Enabled",
   "settings.identity-validation.process-started": "Your identity validation process started, now go to...",
   "settings.identity-validation.request-error": "Request error, try again later",
+  "settings.identity-validation.error-verifying": "There was an error veryfying your identity",
+  "settings.identity-validation.identity-not-verified": "Your identity is not verified",
+  "settings.identity-validation.identity-verified": "Your identity is verified",
 
   "sidebar.open": "Open",
   "sidebar.closed": "Closed",

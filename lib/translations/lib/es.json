@@ -47,6 +47,9 @@
   "settings.identity-validation.enabled": "Activado",
   "settings.identity-validation.process-started": "El proceso de validación de tu identidad ha comenzado, ahora dirígete a...",
   "settings.identity-validation.request-error": "Error en la comunicación, vuelve a intentarlo más tarde",
+  "settings.identity-validation.error-verifying": "Se produjo un error verificando si su identidad está validada",
+  "settings.identity-validation.identity-not-verified": "Su identidad no está validada",
+  "settings.identity-validation.identity-verified": "Su identidad se encuentra validada",
 
   "sidebar.open": "Abiertos",
   "sidebar.closed": "Cerrados",
