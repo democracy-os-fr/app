@@ -41,6 +41,7 @@
   "staff": [],
   "google analytics tracking id" : "",
   "netid": {
+    "access token lifetime": "time in ms",
     "base url": "netid-testing.herokuapp.com",
     "client id": "some-client-id-from-your-provider",
     "client secret": "some-client-secret-from-your-provider",
