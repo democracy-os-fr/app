@@ -50,7 +50,7 @@
   "settings.identity-validation.identity-status": "Your identity status is:",
   "settings.identity-validation.identity-verified": "Verified",
   "settings.identity-validation.identity-not-verified": "Not verified",
-  "settings.identity-validation.error-verifying": "Verification error, try again later",
+  "settings.identity-validation.error-verifying": "Error verifying <a href=\"/settings/identity/\"><i class=\"glyphicon glyphicon-repeat\"></i></a>",
   "settings.identity-validation.instructions": "Now go to <a href=\"{url}\" target=\"_blank\">this link</a> to know how to verify your identity",
 
   "sidebar.open": "Open",

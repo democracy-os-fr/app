@@ -47,11 +47,10 @@
   "settings.identity-validation.processing": "Procesando...",
   "settings.identity-validation.started": "Iniciado",
   "settings.identity-validation.request-error": "Error en la comunicación, vuelve a intentarlo más tarde",
-  "settings.identity-validation.request-error": "Error en la comunicación, vuelve a intentarlo más tarde",
   "settings.identity-validation.identity-status": "El estado de tu identidad es:",
   "settings.identity-validation.identity-verified": "Verificado",
   "settings.identity-validation.identity-not-verified": "No verificado",
-  "settings.identity-validation.error-verifying": "Error en la verificación, inténtelo nuevamente",
+  "settings.identity-validation.error-verifying": "Error en la verificación <a href=\"/settings/identity/\"><i class=\"glyphicon glyphicon-repeat\"></i></a>",
   "settings.identity-validation.instructions": "Ahora entra en <a href=\"{url}\" target=\"_blank\">este link</a> para conocer cómo validar tu identidad",
 
   "sidebar.open": "Abiertos",
