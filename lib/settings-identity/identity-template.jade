@@ -15,7 +15,7 @@
           - else
             on = ''
             buttonLabel = t('settings.identity-validation.start')
-          a.btn.btn-success.btn-lg.btn-start(class=on) #{buttonLabel}
+          a.btn.btn-success.btn-lg.btn-start.hide(class=on) #{buttonLabel}
           span.glyphicon.glyphicon-refresh.loading.hide
           span.glyphicon.glyphicon-ok-sign.verified.hide
         ul.form-messages
