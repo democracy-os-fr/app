@@ -171,6 +171,7 @@
 
   "You have not verified your identity yet": "You have not verified your identity yet",
   "An error was produced trying to verify your identity, please try again later": "An error was produced trying to verify your identity, please try again later",
+  "netid-templates.action.netid-enabled-required": "You must <a href=\"/settings/identity\">start your identity validation process</a> to perform this action",
 
   "To not take part on the citizen's decision": "To not take part on the citizen's decision",
   "To respect parlament methodology": "To respect parlament methodology",
