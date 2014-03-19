@@ -18,7 +18,7 @@
     "gvilarino/autocomplete": "fb4ee",
     "yields/empty": "0.0.1"
   },
-  "local": [ "citizen", "request", "render", "netid-templates" ],
+  "local": [ "citizen", "request", "render", "netid-templates", "config" ],
   "scripts": [ "proposal-options.js" ],
   "templates": [ "options.jade" ],
   "styles": [ "proposal-options.styl" ],
