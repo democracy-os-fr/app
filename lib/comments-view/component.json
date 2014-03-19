@@ -21,7 +21,8 @@
   "local": [
     "citizen",
     "request",
-    "netid-templates"
+    "netid-templates",
+    "config"
   ],  
   "scripts": [ "view.js" ],
   "styles" : [ "comments-view.styl", "comments.css" ],
