@@ -8,6 +8,6 @@
   },
   "local": [ "render" ],
   "scripts": [ "index.js" ],
-  "templates": [ "identity-not-verified.jade", "identity-verification-error.jade" ],
+  "templates": [ "identity-not-verified.jade", "identity-verification-error.jade", "citizen-not-enabled-netid.jade" ],
   "main": "index.js"
 }
