@@ -51,7 +51,7 @@
   "settings.identity-validation.identity-verified": "Verificado",
   "settings.identity-validation.identity-not-verified": "No verificado",
   "settings.identity-validation.error-verifying": "Error en la verificación <a href=\"/settings/identity/\"><i class=\"glyphicon glyphicon-repeat\"></i></a>",
-  "settings.identity-validation.instructions": "Ahora entra en <a href=\"{url}\" target=\"_blank\">este link</a> para conocer cómo validar tu identidad",
+  "settings.identity-validation.instructions": "Entra en <a href=\"{url}\" target=\"_blank\">este link</a> para conocer cómo validar tu identidad",
 
   "sidebar.open": "Abiertos",
   "sidebar.closed": "Cerrados",
@@ -171,7 +171,7 @@
   
   "You have not verified your identity yet": "Aún no has verificado tu identidad",
   "An error was produced trying to verify your identity, please try again later": "Se ha producido un error intentando validar tu identidad, por favor inténtalo de nuevo más tarde",
-  "netid-templates.action.netid-enabled-required": "Debes <a href=\"/settings/identity\">iniciar el proceso de validación de identidad</a> para realizar esta acción",
+  "netid-templates.action.netid-enabled-required": "Debes <a href=\"/settings/identity\">validar tu identidad</a> para realizar esta acción",
 
   "To not take part on the citizen's decision": "Para no influenciar la decisión del ciudadano",
   "To respect parlament methodology": "Para respetar la metodología de la legislatura",
