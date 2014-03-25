@@ -52,6 +52,8 @@
   "settings.identity-validation.identity-not-verified": "No verificado",
   "settings.identity-validation.error-verifying": "Error en la verificación <a href=\"/settings/identity/\"><i class=\"glyphicon glyphicon-repeat\"></i></a>",
   "settings.identity-validation.instructions": "Entra en <a href=\"{url}\" target=\"_blank\">este link</a> para conocer cómo validar tu identidad",
+  "signup.validate.one.step.further": "Estás sólo a un paso para comenzar a argumentar y votar leyes.",
+  "signup.validate.go.to.settings": "Ir a la <a href=\"/settings/identity\">configuración de identidad</a> para comenzar el proceso de validación de identidad",
 
   "sidebar.open": "Abiertos",
   "sidebar.closed": "Cerrados",
