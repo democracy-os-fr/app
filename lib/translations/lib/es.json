@@ -15,7 +15,7 @@
   "Incorrect username": "Nombre de usuario incorrecto",
   "Field %s is not set": "El campo %s no está asignado",
   "Password argument not set!": "¡La contraseña no está asignada!",
-  "User already exists with name %s": "Ya existe un usuario con el nombre %s",
+  "email.already.taken": "Ya existe un ciudadano con ese email",
 
   "Password is required": "Se necesita una contraseña",
   "Password is not good enough": "La contraseña no es suficientemente buena",
