@@ -15,7 +15,7 @@
   "Incorrect username": "Nom d'usuari incorrecte",
   "Field %s is not set": "El camp %s no està assignat",
   "Password argument not set!": "¡La contrasenya no està assignada!",
-  "User already exists with name %s": "Ja existeix un usuari amb el nom %s",
+  "email.already.taken": "Ja existeix un usuari amb aquest correu electrònic",
 
   "Password is required": "Es necessita una contrasenya",
   "Password is not good enough": "La contrasenya no és prou segura",
