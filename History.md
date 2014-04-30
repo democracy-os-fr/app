@@ -1,4 +1,21 @@
 
+0.4.12 / 2014-04-25
+==================
+
+ * Fix build failure based on remotes and outdated component version
+
+0.4.11 / 2014-04-14
+==================
+
+ * Fix 'voted' check after sign-in. Fixes #326
+
+0.4.10 / 2014-04-03 
+==================
+
+ * Refresh sidebar after casting vote
+ * Fix not showing form errors on FF
+ * CSRF protection
+
 0.4.9 / 2014-03-31
 ==================
 

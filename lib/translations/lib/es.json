@@ -68,6 +68,8 @@
   "comments.sign-in-required": "Debés estar registrado para poder argumentar aquí",
   "comments.deleted-arguments": "Argumentos eliminados",
   "comments.your-argument": "Tu argumento",
+  "comments.edit.argument": "Editar argumento",
+  "comments.edited": "editado",
   "Send": "Enviar",
 
   "DemocracyOS - Password reset requested": "DemocracyOS - Reestablecer contraseña",
@@ -86,6 +88,7 @@
   "Repeat Password": "Repetir contraseña",
   "Reset Password!": "¡Reestablecer contraseña!",
   "Forgot Password?": "¿Olvidaste tu contraseña?",
+  "DemocracyOS markdown": "DemocracyOS markdown",
   "Don't have an account?": "¿No tienes una cuenta?",
   "We will send an email with a link to reset your password": "Te enviaremos un correo electrónico con un enlace para reestablecer tu contraseña",
   "We just sent a message to your email with instructions to create a new password": "Enviamos un mensaje a tu correo electrónico con instrucciones para crear una nueva contraseña",
@@ -138,6 +141,9 @@
   "Yea": "Afirmativo",
   "Nay": "Negativo",
   "Abstain": "Abstención",
+  "Yes": "Yes",
+  "Cancel": "Cancelar",
+  "Edit": "Editar",
   "Delegate": "Delegar",
   "Delegate to": "Delegar a",
   "{num} votes cast": "{num} votos contados",
@@ -147,7 +153,7 @@
   "Chart": "Gráfico",
 
   "Clause": "Artículo",
-  "read more": "leer más",
+  "read more": "Leer más",
   "view more": "ver más",
   "View the original text": "Ver el texto original",
   "Participant": "Participante",
@@ -160,10 +166,13 @@
 
   "This argument has been flagged as spam": "Este argumento fue reportado como abuso",
   "show": "mostrar",
+  "Do you want to remove this argument?": "¿Deseas borrar este argumento?",
+  "That argument is not yours!": "¡Ese argumento no es tuyo!",
 
   "proposal-article.article.alert.text": "Ésta es una versión demo de DemocracyOS.",
   "proposal-article.article.alert.learn-more": "Más información",
 
+  "Remove argument" : "Borrar argumento",
   "Spam" : "Reportar abuso",
   "Not spam" : "Esto no es abuso",
   "Upvote" : "Aporta al debate",
@@ -237,5 +246,27 @@
   "admin-tags-form.button.submit": "Guardar",
 
   "admin-tags-form.message.onsuccess": "Etiqueta guardada exitosamente",
-  "admin-tags-form.message.validation.name-required": "Nombre requerido"
+  "admin-tags-form.message.validation.name-required": "Nombre requerido",
+
+  "markdown.cheatsheet.title": "Guía de markdown",
+  "democracyos.markdown.flavored": "Markdown utilizado en DemocracyOS",
+  "markdown.will.become": "Resultará:",
+  "markdown.text.1": "DemocracyOS usa las siguientes reglas de markdown para argumentar las leyes",
+  "markdown.title.emphasis": "Énfasis de texto",
+  "markdown.emphasis.example.1": "Énfasis, conocido como itálica, puede escribirse con *asteriscos* o _guíones bajos_.",
+  "markdown.emphasis.example.2": "El énfasis fuerte, conocido como negrita; con doble **asteriscos** o __guíones bajos__.",
+  "markdown.emphasis.example.3": "El énfasis combinado se logra con **asteriscos y _guíones bajos_**.",
+  "markdown.url-autolinking.title": "Links automáticos",
+  "markdown.url-autolinking.text": "DemocracyOS pondrá un link automáticamente a las URLs standard, así que si quieres linkear a una URL, simplemente puedes ingresar la URL y el link se agregará automáticamente",
+  "markdown.url-autolinking.example": "Ingresa a http://ejemplo.com",
+  "markdown.linebreaks.title": "Saltos de línea",
+  "markdown.linebreaks.text": "Más de 2 saltos de línea serán comprimidos. Por ejemplo:",
+  "markdown.linebreaks.example.1": "Aquí tenemos una primera línea para empezar.\n",
+  "markdown.linebreaks.example.2": "Esta es nuestra segunda línea.\n\n",
+  "markdown.linebreaks.example.3": "Y una tercera.\n\n\n\n",
+  "markdown.linebreaks.example.4": "Y esta estará sólo a dos espacios de la anterior.",
+  "markdown.playground.title": "A jugar",
+  "markdown.playground.text": "¡Pruébalo tú mismo!",
+  "markdown.playground.result": "Resultado:",
+  "markdown.comments.link": "Los comentarios son parseados utilizando el <a href='/markdown'>Markdown especial de DemocracyOS</a>"
 }

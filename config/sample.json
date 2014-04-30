@@ -14,7 +14,8 @@
     "organization name",
     "organization url",
     "learn more url",
-    "google analytics tracking id"
+    "google analytics tracking id",
+    "netid enabled"
   ],
   "auth": {
     "basic": {
@@ -45,6 +46,7 @@
       "username" : "@democracyos"
     }
   },
+  "locale" : "en",
   "logo" : "http://democraciaenred.org/boot/images/logo.png",
   "favicon" : "http://democraciaenred.org/favicon.ico",
   "organization name" : "DemocracyOS on GitHub",
