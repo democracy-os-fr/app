@@ -1,0 +1,11 @@
+{
+  "name": "view",
+  "description": "Base view",
+  "dependencies": {
+    "component/inherit": "0.0.3",
+    "cristiandouce/query": "0.0.1"
+  },
+  "local": [ "render" ],
+  "scripts": [ "view.js" ],
+  "main": "view.js"
+}
