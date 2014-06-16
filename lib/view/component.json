@@ -2,6 +2,7 @@
   "name": "view",
   "description": "Base view",
   "dependencies": {
+    "component/emitter": "1.1.1",
     "component/inherit": "0.0.3",
     "cristiandouce/query": "0.0.1"
   },
