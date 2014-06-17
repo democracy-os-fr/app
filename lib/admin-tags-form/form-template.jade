@@ -8,6 +8,7 @@
       h1= t(form.title)
     form.form(action=form.action, method="post", role="form", autocomplete="off", novalidate)
       ul.form-messages
+      ul.form-errors
       .form-group
         label= t('admin-tags-form.label.name')
         input.form-control(type='text', id="name", name='name', tabindex=tabindex++, placeholder=t('admin-tags-form.placeholder.name'), value=tag.name)
