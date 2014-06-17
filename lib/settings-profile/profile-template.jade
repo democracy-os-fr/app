@@ -6,6 +6,7 @@
       h1= t('Profile')
     form.form(action="/settings/profile", method="post", role="form", autocomplete="off")
       ul.form-messages
+      ul.form-errors
       .form-group
         label #{t('First name')}
         input.form-control(type='text', id="firstName", name='firstName', tabindex=1, placeholder=t('First name'), value='#{citizen.firstName}')
