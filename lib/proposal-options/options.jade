@@ -1,33 +1,34 @@
 .proposal-options-container
   .proposal-options
-    .vote-box
-      .meta-data(class= !!citizen.id ? '' : 'hide')
-        - if(~positives.indexOf(citizen.id))
-          .alert.alert-success #{t('You voted Yea')}.
-        - else if (~negatives.indexOf(citizen.id))
-          .alert.alert-danger #{t('You voted Nay')}.
-        - else if (~neutrals.indexOf(citizen.id))
-          .alert.alert-info #{t('You abstained from voting')}.
+    - if (!closed)
+      .vote-box
+        .meta-data(class= !!citizen.id ? '' : 'hide')
+          - if(~positives.indexOf(citizen.id))
+            .alert.alert-success #{t('You voted Yea')}.
+          - else if (~negatives.indexOf(citizen.id))
+            .alert.alert-danger #{t('You voted Nay')}.
+          - else if (~neutrals.indexOf(citizen.id))
+            .alert.alert-info #{t('You abstained from voting')}.
 
-        a.meta-item.change-vote(href="#", class= voted && !closed ? '' : 'hide')
-          i.icon-refresh
-          small #{t('I want to change my vote')}.
+          a.meta-item.change-vote(href="#", class= voted && !closed ? '' : 'hide')
+            i.icon-refresh
+            small #{t('I want to change my vote')}.
 
-      .vote-options(class= voted || closed ? 'hide' : '')
-        h5= t('Vote')
-        .direct-vote
-          a.vote-option.vote-yes(href="#", data-proposal=proposal.id)
-            i.flaticon.solid.thumbs-up-1
-            span= t('Yea')
-          a.vote-option.vote-abstain(href="#", data-proposal=proposal.id)
-            i.flaticon.solid.pause
-            span= t('Abstain')
-          a.vote-option.vote-no(href="#", data-proposal=proposal.id)
-            i.flaticon.solid.thumbs-up-1
-            span= t('Nay')
-        
-        .votes-cast
-          em.text-muted= t('{num} votes cast', { num: census.length || "0" })
+        .vote-options(class= voted || closed ? 'hide' : '')
+          h5= t('Vote')
+          .direct-vote
+            a.vote-option.vote-yes(href="#", data-proposal=proposal.id)
+              i.flaticon.solid.thumbs-up-1
+              span= t('Yea')
+            a.vote-option.vote-abstain(href="#", data-proposal=proposal.id)
+              i.flaticon.solid.pause
+              span= t('Abstain')
+            a.vote-option.vote-no(href="#", data-proposal=proposal.id)
+              i.flaticon.solid.thumbs-up-1
+              span= t('Nay')
+          
+          .votes-cast
+            em.text-muted= t('{num} votes cast', { num: census.length || "0" })
     
     - if (!citizen.id)
       p.text-mute.hide= t('You must be signed in to vote on this law')
