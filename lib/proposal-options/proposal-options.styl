@@ -10,91 +10,143 @@
 
 /* Law options view
 -------------------------------------------------- */
-.proposal-options
-  margin-bottom: 50px
-  .vote-options
-    .proxy-vote
-      display: inline-block
-    .vote-option
-      display: inline-block
-      width: 30%
-      margin-right: 5%
-      color: white
-      text-transform: uppercase
-      font-weight: bold
-      border-radius: var(border_radius)
-      margin-bottom: 20px
-      padding: 14px
-      -webkit-transition: all 0.3s ease
+.proposal-options-container
+  position: fixed
+  left: 266px
+  right: 0
+  z-index: 100
+  background-color: white
+  border-bottom: 1px solid rgb(215, 219, 221)
 
-      .flaticon
+  .proposal-options
+    max-width: 800px
+    margin: 0 auto
+    .vote-options
+      display: block
+      width: 100%
+      overflow: hidden
+      .direct-vote
+        overflow: hidden
+        text-align: center
+        width: 70%
+        float: left
+      .proxy-vote
         display: inline-block
-        margin-right: 14px
-      span
+      .vote-option
         display: inline-block
-      &.vote-yes
-        background-color: #a4cb53
-        &:hover
-          background-color: darken(#a4cb53, 40%)
-      &.vote-no
-        background-color: #d95e59
-        margin-right: 0
-        &:hover
-          background-color: darken(#d95e59, 40%)
+        width: 28%
+        margin-right: 5%
+        color: white
+        text-transform: uppercase
+        font-weight: bold
+        border-radius: var(border_radius)
+        padding-top: 14px
+        padding-bottom: 14px
+        -webkit-transition: all 0.3s ease
+        text-align: center
+
+        .flaticon
+          display: inline-block
+          margin-right: 14px
+        span
+          display: inline-block
+        &.vote-yes
+          background-color: #a4cb53
+          &:hover
+            background-color: darken(#a4cb53, 40%)
+        &.vote-no
+          background-color: #d95e59
+          margin-right: 0
+          &:hover
+            background-color: darken(#d95e59, 40%)
+          i
+            transform:rotate(180deg)
+            -ms-transform:rotate(180deg) /* IE 9 */
+            -webkit-transform:rotate(180deg)
+
+        &.vote-abstain
+          background-color: #666
+          &:hover 
+            background-color: darken(#666666, 40%)
+
+        &.delegate-vote
+          background-color: #3498db
+
+
+    .vote-box, .results-box
+      background: white
+      padding: 0
+      h5
+        text-transform: uppercase
+        margin-top: 0
+        display: inline-block
+        float: left
+        height: 48px
+        line-height: 48px
+        width: 15%
+        text-align: right
+      .delegation-box
+        display: inline-block
+    .vote-box
+      padding-bottom: 6px
+      margin-top: 15px
+      .meta-data
+        margin-bottom: 12px
+      .change-vote
+        font-size: 16px
+        color: black
+        font-weight: bold
         i
-          transform:rotate(180deg)
-          -ms-transform:rotate(180deg) /* IE 9 */
-          -webkit-transform:rotate(180deg)
+          margin-right: 10px
+        &:hover
+          text-decoration: none
+      .secret-results
+        margin-right: 6px
+      .secret-results:before
+        content: " - "
+      .votes-cast
+        display: inline-block
+        float: left
+        height: 48px
+        line-height: 48px
+        width: 15%
 
-      &.vote-abstain
-        background-color: #666
-        &:hover 
-          background-color: darken(#666666, 40%)
+    .toggle-results
+      span
+        margin-right: 5px
 
-      &.delegate-vote
-        background-color: #3498db
-
-
-  .vote-box, .results-box
-    background: white
-    padding: 20px 0
-    h5
-      text-transform: uppercase
-      margin-top: 0
-    .delegation-box
-      display: inline-block
-  .vote-box
-    .meta-data
-      margin-bottom: 20px
-    .change-vote
-      font-size: 16px
-      color: black
-      font-weight: bold
-      i
-        margin-right: 10px
-      &:hover
-        text-decoration: none
-    .secret-results
-      margin-right: 6px
-    .secret-results:before
-      content: " - "
-
-  .toggle-results
-    span
-      margin-right: 5px
-
-  .results-box
-    h5
-      margin-bottom: 0
-    .percent
-      font-size: 30px
-    .votes-results
-      margin-bottom: 20px
-    .results-summary
-      font-weight: bold
-    .votes-afirmative, .votes-afirmative h5
-      color: #a4cb53
-    .votes-negative, .votes-negative h5
-      color: #d95e59
-    .votes-neutral, .votes-neutral h5
-      color: #666666
+    .results-box
+      h5
+        margin-bottom: 0
+      .alert
+        margin-top: 15px
+      .percent
+        font-size: 30px
+      .votes-results
+        min-width: 104px
+        max-width: 592px
+        margin-bottom: 20px
+        padding: 0
+      .results-summary
+        font-weight: bold
+        text-align: center
+        height: 125px
+        line-height: 125px
+        h5
+          display: none
+        .bar
+          width: 100%
+          height: 20px
+          float: left
+          &.positives
+            background-color: #a4cb53
+          &.negatives
+            background-color: #d95e59
+          &.neutrals
+            background-color: #666666
+      .votes-afirmative, .votes-afirmative h5
+        color: #a4cb53
+      .votes-negative, .votes-negative h5
+        color: #d95e59
+      .votes-neutral, .votes-neutral h5
+        color: #666666
