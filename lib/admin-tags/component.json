@@ -16,7 +16,7 @@
   "local": [
     "tags",
     "citizen",
-    "render",
+    "view",
     "request",
     "regexps"
   ],
