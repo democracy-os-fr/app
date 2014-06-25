@@ -6,6 +6,7 @@
     "component/domify": "1.2.0",
     "component/emitter": "1.1.1",
     "component/events": "1.0.5",
+    "component/inherit": "0.0.3",
     "component/t": "1.0.0",
     "cristiandouce/query": "0.0.1",
     "visionmedia/jade": "1.1.5",
@@ -13,7 +14,7 @@
     "yields/serialize": "0.2.0"
   },
   "local": [
-    "render",
+    "form-view",
     "request"
   ],  
   "scripts": [ "view.js" ],
