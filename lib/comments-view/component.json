@@ -25,7 +25,8 @@
     "comments-replies",
     "config",
     "comments-filter",
-    "render"
+    "render",
+    "view"
   ],  
   "scripts": [ "view.js" ],
   "styles" : [ "comments-view.styl", "comments.css" ],
