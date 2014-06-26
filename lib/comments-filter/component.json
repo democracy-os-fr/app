@@ -15,7 +15,8 @@
   "local": [
     "citizen",
     "render",
-    "store"
+    "store",
+    "view"
   ],
   "styles": [ "comments-filter.styl" ],
   "templates": [ "comments-filter.jade" ],
