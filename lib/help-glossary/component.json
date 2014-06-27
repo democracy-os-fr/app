@@ -12,7 +12,7 @@
     "chjj/marked": "v0.3.2"
   },
   "local": [
-    "render"
+    "view"
   ],
   "templates": [
     "glossary-template.jade",

@@ -16,7 +16,7 @@
   "local": [
     "browser-lock",
     "markdown",
-    "render",
+    "view",
     "sidebar",
     "title"
   ],
