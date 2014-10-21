@@ -9,10 +9,12 @@
     "component/aurora-tip": "1.0.0",
     "visionmedia/debug": "0.7.4",
     "visionmedia/jade": "1.1.5",
-    "slifszyc/query": "0.0.3"
+    "slifszyc/query": "0.0.3",
+    "component/bus": "^0.0.2",
+    "ripplejs/ripple": "0.5.3"
   },
-  "locals": [ "config", "render", "request" ],
-  "scripts": [ "view.js"],
+  "locals": [ "config", "render", "request", "citizen" ],
+  "scripts": [ "view.js", "participant-view.js"],
   "templates": [ "box.jade", "participant.jade" ],
   "styles": [ ],
   "images": [ ],
