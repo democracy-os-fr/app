@@ -1,6 +1,6 @@
 .participants-box
   | {participants.length} Participants
   div(each="participants")
-    div {fullName || firstName + ' ' + lastName}
+    div(data-replace='this')
   a.view-more.hellip(href="#") &hellip;
 
