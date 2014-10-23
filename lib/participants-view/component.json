@@ -14,7 +14,7 @@
     "component/reactive": "1.2.0",
     "component/indexof": "0.0.1"
   },
-  "locals": [ "config", "render", "request", "citizen", "view" ],
+  "locals": [ "config", "render", "request", "citizen", "stateful-view" ],
   "scripts": [ "view.js", "participant-view.js"],
   "templates": [ "box.jade", "participant.jade" ],
   "styles": [ ],
