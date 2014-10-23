@@ -11,9 +11,10 @@
     "visionmedia/jade": "1.1.5",
     "slifszyc/query": "0.0.3",
     "component/bus": "^0.0.2",
-    "ripplejs/ripple": "0.5.3"
+    "component/reactive": "1.2.0",
+    "component/indexof": "0.0.1"
   },
-  "locals": [ "config", "render", "request", "citizen" ],
+  "locals": [ "config", "render", "request", "citizen", "view" ],
   "scripts": [ "view.js", "participant-view.js"],
   "templates": [ "box.jade", "participant.jade" ],
   "styles": [ ],
