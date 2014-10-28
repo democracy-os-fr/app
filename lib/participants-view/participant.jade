@@ -1,3 +1,3 @@
-| <a href="javascript:void();" class="participant-profile" title="{{this.fullName || this.firstName + ' ' + this.lastName}}">
+| <a href="javascript:void();" class="participant-profile {{#i > 4}}hide{{/}}" title="{{this.fullName || this.firstName + ' ' + this.lastName}}">
 | <img class="avatar" src='{{this.profilePictureUrl ? this.profilePictureUrl : this.gravatar}}' />
 | </a>

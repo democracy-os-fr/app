@@ -4,4 +4,4 @@
     | #{t('Participant')}{{participants.length === 1 ? '' : 's'}}
   span
     | {{#participants:i}}{{>participant}}{{/participants}}
-    | <a href="#" class="view-more hellip {{#participants.length < 6}}hide{{/}}"> &hellip;</a>
+    | <a href="#" class="view-more hellip {{#participants.length < 5}}hide{{/}}" on-click="view-more"> &hellip;</a>
