@@ -21,7 +21,8 @@
     "laws",
     "render",
     "request",
-    "regexps"
+    "regexps",
+    "richtext"
   ],
   "templates": [
     "template.jade",
