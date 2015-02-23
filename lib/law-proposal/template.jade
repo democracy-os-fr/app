@@ -1,0 +1,31 @@
+- var nothings = law.totalNothings
+- var littles = law.totalLittles
+- var somewhats = law.totalSomewhats
+- var verys = law.totalVerys
+- var scored = law.scored
+- var census = law.scoreCensus
+
+.law-proposal(data-id=law.id)
+  .inner
+    a(data-id=color).law-title-link(href='/law/#{law.id}')
+      h2.law-title(style='background-color: #{law.backgroundColor}; color: #{law.fontColor}')=law.mediaTitle
+    - var isTwitter = law.authorUrl && !!~law.authorUrl.indexOf('twitter.com')
+    - if (isTwitter)
+      - var twitter = law.authorUrl.split('twitter.com/')[1]
+      - var tweet = 'Hola @' + twitter + '! Quiero decirte algo sobre tu proyecto '
+      - tweet = '%23YoVoto ' + encodeURI(tweet)
+      - var url = 'http://twitter.com/share?text=' + tweet
+    - else
+      - var url = law.authorUrl
+
+    - if (law.picture)
+      .pic(style="background-image: url(#{law.picture})")
+        span
+
+    p.desc=law.summary
+    .author-wrapper
+      - if (law.author)
+      .author
+        p
+          span=t('admin-laws-form.label.author') + ': ' + law.author
+

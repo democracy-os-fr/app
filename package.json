@@ -91,10 +91,12 @@
     "t-component": "1.0.0",
     "transliteration": "~0.1.1",
     "truncate": "~1.0.2",
-    "type-component": "0.0.1"
+    "type-component": "0.0.1",
+    "kouto-swiss": "0.10.3"
   },
   "devDependencies": {
-    "google-translate": "^0.1.8"
+    "google-translate": "^0.1.8",
+    "kouto-swiss": "^0.10.3"
   },
   "main": "pdr",
   "engines": {

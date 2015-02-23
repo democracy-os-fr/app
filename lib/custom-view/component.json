@@ -1,0 +1,31 @@
+{
+  "name": "custom-view",
+  "description": "Custom View",
+  "dependencies": {
+    "component/dom": "1.0.6",
+    "visionmedia/debug": "2.1.0",
+    "jadejs/jade": "1.1.5",
+    "democracyos/headroom.js": "0.7.1",
+    "component/classes": "1.2.0",
+    "visionmedia/page.js": "1.3.7",
+    "component/t": "1.0.0"
+    },
+  "locals": [
+    "view",
+    "sidebar",
+    "laws",
+    "laws-filter",
+    "law-proposal"
+  ],
+  "images": [
+    "images/eu-voto-img.png"
+  ],
+  "scripts": [
+    "view.js",
+    "custom-view.js" ,
+    "index.js"
+  ],
+  "styles": [ "custom-view.styl" ],
+  "templates": [ "template.jade" ],
+  "main": "custom-view.js"
+}

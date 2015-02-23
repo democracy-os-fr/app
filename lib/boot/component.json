@@ -16,6 +16,9 @@
     "homepage",
     "proposal",
     "law",
+    "laws-blocks",
+    "law-proposal",
+    "custom-view",
     "signin",
     "signup",
     "forgot",
@@ -37,7 +40,8 @@
     "images/touch-icon-ipad.png",
     "images/touch-icon-iphone-retina.png",
     "images/touch-icon-ipad-retina.png",
-    "images/logo.png"
+    "images/logo.png",
+    "images/eu-voto-img.png"
   ],
   "main": "boot.js"
 }
