@@ -1,0 +1,30 @@
+{
+  "name": "laws-blocks",
+  "description": "Homepage with Laws in blocks",
+  "dependencies": {
+    "component/classes": "1.2.0",
+    "component/bus": "^0.0.2",
+    "component/dom": "0.7.1",
+    "visionmedia/debug": "2.1.0",
+    "visionmedia/page.js": "1.3.7",
+    "jadejs/jade": "1.1.5",
+    "component/t": "1.0.0"
+  },
+  "development": {},
+  "locals": [
+    "citizen",
+    "render",
+    "view",
+    "laws",
+    "laws-filter",
+    "law-proposal"
+  ],
+  "scripts": [
+    "laws-blocks.js",
+    "view.js",
+    "index.js"
+  ],
+  "templates": [ "template.jade", "no-laws.jade" ],
+  "styles": [ "laws-blocks.styl" ],
+  "main": "laws-blocks.js"
+}
