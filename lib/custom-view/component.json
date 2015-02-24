@@ -18,7 +18,8 @@
     "law-proposal"
   ],
   "images": [
-    "images/eu-voto-img.png"
+    "images/eu-voto-img.png",
+    "images/twitter.png"
   ],
   "scripts": [
     "view.js",
