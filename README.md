@@ -8,6 +8,8 @@ Check out the [live DemocracyOS demo](http://demo.democracyos.org).
 
 ![DemocracyOS](https://i.cloudup.com/F7G3UjbWBx.gif)
 
+## Land of Ooo branch is up !
+
 
 ## Installation
 Please refer to the [Installation](https://github.com/DemocracyOS/app/wiki/Installation) wiki page for detailed instructions on how to install and setup your instance of DemocracyOS.
