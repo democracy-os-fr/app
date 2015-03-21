@@ -7,7 +7,7 @@ ifndef DEBUG
 endif
 
 ifndef NODE_ENV
-  NODE_ENV="development"
+  NODE_ENV="production"
 endif
 
 run: packages
