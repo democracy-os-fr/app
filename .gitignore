@@ -23,3 +23,6 @@ config*.json
 *.DS_Store
 .env
 .idea/*
+
+*app.json
+heroku-config-cli.txt
