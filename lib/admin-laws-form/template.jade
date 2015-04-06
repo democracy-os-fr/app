@@ -77,7 +77,7 @@
             - if (law.links && law.links.length)
               - each link, id in law.links
                 include link
-          .col-sm-3.pull-right
+          .col-md-3.pull-right
             a.add-link.btn.btn-block.btn-info(href='#')= t('admin-laws-form.button.add-link')
             .form-group: input.btn.btn-success.btn-block.btn-lg.hide(type='submit', tabindex=12, value=t('admin-laws-form.button.submit'))
           span.add-link-forbidden.hide=t('admin-laws-form.message.add-link-forbidden')
