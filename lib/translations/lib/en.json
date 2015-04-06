@@ -47,7 +47,7 @@
   "admin-laws-form.title.edit": "Edit topic",
   "admin-laws-form.url": "URL",
   "admin-laws-form.alert.no-tags": "No tags were found, please <a href=\"/admin/tags/create\">create one</a> before start creating topics",
-  "admin-laws.list.title": "System tocpic",
+  "admin-laws.list.title": "System topic",
   "admin-laws.list.add-topic": "New",
   "admin-laws.list.sort": "Sort",
   "admin-laws.list.search.placeholder": "Search a topic...",
