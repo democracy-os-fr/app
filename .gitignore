@@ -23,3 +23,9 @@ config*.json
 *.DS_Store
 .env
 .idea/*
+
+app.json
+
+democracy-os-fr-app.json
+
+heroku-config-cli.txt
