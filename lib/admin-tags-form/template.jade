@@ -13,10 +13,10 @@
         input.form-control(type='text', id="name", name='name', tabindex=tabindex++, placeholder=t('admin-tags-form.placeholder.name'), value=tag.name, validate='required')
       .form-group
         label= t('admin-tags-form.label.image')
-        ul.tag-images
+        div.btn-group.tag-images(data-toggle="buttons")
           - each image in images
-            li.tag-image
-              input.form-control(type='radio', name='image', tabindex=tabindex++, value=image.name, checked= tag.image === image.name, validate='any:image')
+            label.btn.btn-primary.tag-image(class={ active: image.name === tag.image })
+              input(type="radio", name="image", autocomplete="off", tabindex=tabindex++, value=image.name, checked= tag.image === image.name, validate='any:image')
               .tag-image-fill
                 img(src=image.url)
       .form-group: button.btn.btn-success.btn-block.btn-lg(tabindex=tabindex++)=t('admin-tags-form.button.submit')

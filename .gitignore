@@ -24,8 +24,12 @@ config*.json
 .env
 .idea/*
 
+<<<<<<< HEAD
 app.json
 
 democracy-os-fr-app.json
 
+=======
+*app.json
+>>>>>>> democracy-os-france
 heroku-config-cli.txt
