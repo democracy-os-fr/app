@@ -2,15 +2,12 @@
   "name": "tag-images",
   "description": "DemocracyOS Tag images collection",
   "images": [
-    "images/agora.svg",
-    "images/arts.svg",
-    "images/internet.svg",
-    "images/parks.svg",
-    "images/people.svg",
-    "images/police.svg",
-    "images/scale.svg",
-    "images/signs.svg",
-    "images/transportation.svg"
+    "images/agenda.svg",
+    "images/announce.svg",
+    "images/share2.svg",
+    "images/message.svg",
+    "images/legal.svg",
+    "images/banknotes.svg"
   ],
   "scripts": [
     "index.js"
