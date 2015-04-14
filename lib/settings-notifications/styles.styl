@@ -1,9 +1,19 @@
 #notifications-wrapper
-  form .form-group.checkbox label
-    cursor: default
+  form .form-group.checkbox
+    padding-left 0
+
+    & label
+      cursor: default
 
   form .form-group span.error
     top: 40px
 
   .toggle
     float: left
+
+    label.toggle-on-label
+      right 0
+      left -20px
+    label.toggle-off-label
+      right 0
+      left 0

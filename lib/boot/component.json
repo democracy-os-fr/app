@@ -35,7 +35,8 @@
   "images": [
     "images/check.png",
     "images/favicon.ico",
-    "images/logo.png"
+    "images/logo.png",
+    "images/logo-mobile.png"
   ],
   "main": "boot.js"
 }
