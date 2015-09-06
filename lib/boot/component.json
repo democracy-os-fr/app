@@ -16,6 +16,8 @@
     "homepage",
     "proposal",
     "law",
+    "law-proposal",
+    "custom-view",
     "signin",
     "signup",
     "forgot",

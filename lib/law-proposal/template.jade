@@ -1,0 +1,29 @@
+.law-proposal.col-xs-12.col-md-4(data-id=law.id)
+  
+  .panel.panel-default
+    .panel-heading
+      a.law-link(href='/law/#{law.id}')
+        .media
+          .media-left.media-middle
+            img.media-object.law-tag(src=tagImages[law.tag.image].url)
+          .media-body
+            span.law-title=law.mediaTitle
+    .panel-body
+      p!=law.description
+      
+    //- .panel-footer
+    //-   
+    //-   .pull-right
+    //-     - if (law.participants.length)
+    //-       i.flaticon.solid.group-2
+    //-       span.law-voted=law.participants.length
+    //-     
+    //-   .pull-left
+    //-     - if (law.authorUrl)
+    //-       .authorUrl
+    //-         p.author-link
+    //-           a(href='#{law.authorUrl}')=law.author
+    //-     - else if (law.author)
+    //-       .author
+    //-         p.author-name=law.author
+        

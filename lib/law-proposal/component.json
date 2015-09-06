@@ -1,0 +1,32 @@
+{
+  "name": "law-proposal",
+  "description": "",
+  "dependencies": {
+    "visionmedia/page.js": "1.3.7",
+    "jadejs/jade": "1.1.5",
+    "visionmedia/debug": "^2.1.3",
+    "component/dom": "1.0.6",
+    "component/t": "1.0.0",
+    "component/bus": "^0.0.2",
+    "jfresco/progress": "*",
+    "jprichardson/string.js": "*"
+  },
+  "locals": [
+    "citizen",
+    "render",
+    "view",
+    "laws",
+    "request"
+  ],
+  "styles": [
+    "styles.styl"
+  ],
+  "images": [
+    "images/prev.svg",
+    "images/next.svg",
+    "images/clip.svg"
+  ],
+  "scripts": [ "view.js" ],
+  "templates": [ "template.jade" ],
+  "main": "view.js"
+}

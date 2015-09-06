@@ -1,0 +1,35 @@
+colors = #46336e #6f3060 #9a2d53 #c32c46 #ec2939
+for headerColor, i in colors
+  #laws .law-proposal:nth-of-type(5n+{i}) .panel-default
+    .panel-heading
+      background-color headerColor
+    &:hover
+      border-color lighten(headerColor,75%)
+
+.law-proposal
+
+  .panel
+    margin-bottom 35px
+    transition all 400ms ease
+
+  .panel-heading
+    padding 15px
+
+  a.law-link
+    color white
+    &:hover
+      text-decoration none
+
+  .law-tag
+    height 20px
+    width @height
+    margin-right 8px
+
+  .law-title
+    font-size 14px
+
+  .panel-footer
+    min-height 40px
+
+  .law-voted
+    margin-left 5px
