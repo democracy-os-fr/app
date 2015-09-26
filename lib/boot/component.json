@@ -27,6 +27,7 @@
     "header",
     "logout",
     "help",
+    "data",
     "404",
     "browser-update",
     "debug"

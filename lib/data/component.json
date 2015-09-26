@@ -1,0 +1,21 @@
+{
+  "name": "data",
+  "description": "Account page",
+  "dependencies": {
+    "component/dom": "1.0.6",
+    "visionmedia/page.js": "1.3.7",
+    "jadejs/jade": "1.1.5"
+  },
+  "locals": [
+    "citizen",
+    "config",
+    "title",
+    "render",
+    "data-view-home",
+    "data-view-user"
+  ],
+  "scripts": [ "data.js" ],
+  "styles": [ "data.styl", "data-sidebar.styl", "data-heading.styl", "data-responsive.styl" ],
+  "templates": [ "data-container.jade"],
+  "main": "data.js"
+}

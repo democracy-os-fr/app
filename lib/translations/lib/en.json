@@ -321,5 +321,7 @@
   "validators.password.not.match": "Passwords do not match",
   "validators.required": "Required",
   "settings.country": "Country",
-  "header.stats": "Statistics"
+  "data.title": "Statistics",
+  "data.home": "Dashboard",
+  "data.user": "Users"
 }
