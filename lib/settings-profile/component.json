@@ -9,7 +9,8 @@
     "citizen",
     "form-view",
     "debug",
-    "l10n"
+    "l10n",
+    "data-country"
   ],
   "templates": [
     "template.jade"

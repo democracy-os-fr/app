@@ -6,7 +6,7 @@ mixin remove-action
 li.media.comment-item(class=classes)
   span.pull-left
     img(src=avatar).avatar
-
+    
   .media-body
     h5.media-heading
       | #{comment.author.fullName}
@@ -24,6 +24,7 @@ li.media.comment-item(class=classes)
         a.comment-action.link-report.flag(href="#", title=spamTitle, class=flags ? 'selected' : '')
           i.glyphicon.glyphicon-flag
           span.count=comment.flags.length ? comment.flags.length : ''
+    small= t('country.' + comment.author.country )
     .comment-body
       .comment-text!=markdown(comment.text)
       - if (own || citizen.staff)

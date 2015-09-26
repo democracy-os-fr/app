@@ -7,6 +7,7 @@
   ul.dropdown-list
     - if (citizen.staff)
       li: a(href='/admin')= t('header.admin')
+      //- li: a(href='/stats-view')= stats
     li: a(href='/settings')= t('header.settings')
     - if (config.frequentlyAskedQuestions)
       li: a(href="/help/faq")= t('help.faq.title')
