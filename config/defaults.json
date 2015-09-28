@@ -7,13 +7,14 @@
   "mongoUsersUrl": "",
   "jwtSecret": "Generate a secret token and paste it here.",
   "deploymentId": "",
-  "deploymentDomain": "",
   "corsDomains": "",
   "signinUrl": "",
   "signupUrl": "",
   "settingsUrl": "",
   "staff": [],
+  "allowEmailAliases": true,
   "facebookSignin": false,
+  "publicEmails": false,
   "auth": {
     "basic": {
       "username": "",
@@ -59,12 +60,10 @@
     "clientDebug",
     "homeLink",
     "usersWhitelist",
-    "deploymentDomain",
     "headerBackgroundColor",
     "headerFontColor",
     "facebookSignin",
-    "visibility",
-    "usersWhitelist"
+    "visibility"
   ],
   "socialshare": {
     "siteName": "DemocracyOS",
@@ -91,11 +90,11 @@
   "glossary": false,
   "homeLink": "/",
   "clientDebug": "",
-  "usersWhitelist": false,
   "headerBackgroundColor": "",
   "headerFontColor": "",
   "headerContrast": false,
   "googleAPIKey": "",
   "visibility": "visible",
-  "usersWhitelist": false
+  "usersWhitelist": false,
+  "alwaysShowTopicResults": false
 }

@@ -1,6 +1,6 @@
-# DemocracyOS
+# DemocracyOS [![Deploy](https://www.herokucdn.com/deploy/button.png)](http://bit.ly/1Ov2eSL)
 
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/DemocracyOS/app?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/DemocracyOS/app?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Code Climate](https://codeclimate.com/github/DemocracyOS/app/badges/gpa.svg)](https://codeclimate.com/github/DemocracyOS/app)
 
 DemocracyOS is an online space for deliberation and voting on political proposals. It is a platform for a more open and participatory government.The software aims to stimulate better arguments and come to better rulings, as peers.
 
@@ -19,15 +19,14 @@ Please refer to the [Installation](https://github.com/DemocracyOS/app/wiki/Insta
 * [Datos Abiertos México](http://politica.datos.gob.mx): Mexican government's official deployment Open Data Policy.
 * [Nuestra ley Telecom](http://nuestraleytelecom.mx/): Mexican initiative for a crowdsourced telecommunications bill.
 * [VaiMudarNaCopa](http://democracia.vaimudar.org/): Brazilian NGO for discussing social and economic impact of the FIFA World Cup.
-* [Vot-it](http://vot-it.org/): Tunisian official constitution debate and voting.
 
 ## Contributing
 
-Please see [CONTRIBUTING.md](https://github.com/DemocracyOS/app/blob/development/CONTRIBUTING.md) for further details.
+Please see [CONTRIBUTING.md](CONTRIBUTING.md) for further details.
 
 ## Contributors
 
-See [CONTRIBUTORS.md](https://github.com/DemocracyOS/app/blob/development/CONTRIBUTORS.md) to get to know the DemocracyOS team and contributors.
+See [CONTRIBUTORS.md](CONTRIBUTORS.md) to get to know the DemocracyOS team and contributors.
 
 ## Links
 
@@ -45,4 +44,4 @@ Tag icons made by Yannick from [flaticon.com](http://www.flaticon.com) licensed 
 
 ## License
 
-DemocracyOS is open source software under the MIT license. Please see full terms in the [LICENSE.txt](https://github.com/DemocracyOS/app/blob/development/LICENSE.txt) file.
+DemocracyOS is open source software under the MIT license. Please see full terms in the [LICENSE.txt](LICENSE.txt) file.
