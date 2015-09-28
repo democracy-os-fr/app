@@ -6,7 +6,8 @@
     "component/t": "1.0.0"
   },
   "locals": [
-    "view"
+    "view",
+    "request"
   ],
   "scripts": [
     "view.js"

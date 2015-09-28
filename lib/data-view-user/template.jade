@@ -1,2 +1,11 @@
-#user-wrapper.container.hide
-  h1= t('data.user')
+#user-wrapper.hide
+  .well.well-lg
+    .form-group
+      .input-group
+        span.input-group-addon
+          i.glyphicon.glyphicon-search
+        input.form-control.fuzzy-search(type='text', placeholder='#{t("admin-laws.list.search.placeholder")}', autofocus)
+  
+  include item.jade
+  
+  .list
