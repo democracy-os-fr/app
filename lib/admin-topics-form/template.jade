@@ -46,6 +46,9 @@
         .form-group
           label= t('admin-topics-form.label.summary')
           textarea.form-control(name='body', tabindex=7)= topic.body
+        .form-group
+          label= t('admin-topics-form.label.d21')
+          input.form-control(type='text', id="frameId", name='frameId', tabindex=9, value=topic.frameId)
         .form-group.closingAt
           label= t('admin-topics-form.label.closingAt')
           - var closingAt = ''
@@ -55,11 +58,11 @@
             - var closingAtTime = moment(closingAt).format('H:mm')
             - closingAt = closingAt.getFullYear() + '/' + (closingAt.getMonth() + 1) + '/' + closingAt.getDate()
           .input-group
-            input.form-control(name='closingAt', tabindex=10, readonly=true, value=closingAt)
+            input.form-control(name='closingAt', tabindex=11, readonly=true, value=closingAt)
             span.input-group-addon.clear-closingAt
               i.glyphicon.glyphicon-remove
           .input-group
-            input.form-control(name='closingAtTime', tabindex=11, value=closingAtTime, placeholder='hh:mm', validate='time')
+            input.form-control(name='closingAtTime', tabindex=12, value=closingAtTime, placeholder='hh:mm', validate='time')
         .form-group
           label=t('admin-topics-form.label.resources')
           .topic-links
@@ -68,7 +71,7 @@
                 include link
           .pull-left
             a.add-link.btn.btn-block.btn-info(href='#')= t('admin-topics-form.button.add-link')
-            .form-group: input.btn.btn-success.btn-block.btn-lg.hide(type='submit', tabindex=12, value=t('admin-topics-form.button.submit'))
+            .form-group: input.btn.btn-success.btn-block.btn-lg.hide(type='submit', tabindex=13, value=t('admin-topics-form.button.submit'))
           span.add-link-forbidden.hide=t('admin-topics-form.message.add-link-forbidden')
     .col-md-3.commands
       a.btn.btn-success.btn-block.save
