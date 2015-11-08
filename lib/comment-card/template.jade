@@ -10,6 +10,8 @@ li.media.comment-item(class=classes)
   .media-body
     h5.media-heading(title=comment.author.displayName)
       | #{comment.author.fullName}
+      - if ( comment.author.country )
+        small.country #{t( 'country.' + comment.author.country )} 
       small.ago(data-time=comment.createdAt.toString())
       - if (comment.editedAt)
         small.edited · #{t('comments.edited')}

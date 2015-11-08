@@ -347,5 +347,10 @@
   "validators.min-length.singular": "It must be at least 1 character",
   "validators.not.match": "No match",
   "validators.password.not.match": "Passwords do not match",
-  "validators.required": "Required"
+  "validators.required": "Required",
+  "validators.required": "Required",
+  "settings.country": "Country",
+  "data.title": "Statistics",
+  "data.home": "Dashboard",
+  "data.user": "Users"
 }

@@ -58,12 +58,14 @@ html(lang='en')
 
       //- Core 3rd parties libs
       script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+      script(src='//cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js')
       include includes/placeholders
       //- General Site javascript
       script.
         window.config=!{JSON.stringify(client)};
         window.config.locale='#{locale}';
         window.translations=!{JSON.stringify(translations)};
+        window.countries=!{JSON.stringify(countries)}
       - if (config.segmentKey)
         include includes/segment
       script(src='/app.js')
