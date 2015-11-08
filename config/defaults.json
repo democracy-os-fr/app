@@ -13,7 +13,7 @@
   "staff": [],
   "allowEmailAliases": true,
   "facebookSignin": false,
-  "publicEmails": true,
+  "publicEmails": false,
   "auth": {
     "basic": {
       "username": "",
@@ -106,7 +106,7 @@
   "headerFontColor": "",
   "headerContrast": false,
   "googleAPIKey": "",
-  "visibility": "hidden",
+  "visibility": "visible",
   "usersWhitelist": false,
   "multiForum": false,
   "tweetText": "",
