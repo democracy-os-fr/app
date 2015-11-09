@@ -353,5 +353,7 @@
   "settings.country": "Country",
   "data.title": "Statistics",
   "data.home": "Dashboard",
-  "data.user": "Users"
+  "data.user": "Users",
+  "settings.country-warning.message": "Help us improve the results of the polls and tell us more about you.",
+  "settings.country-warning.link": "Go to your profile"
 }

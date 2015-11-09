@@ -7,7 +7,12 @@
       span #{t('proposal-article.article.alert.text')}&nbsp;&nbsp;
       a.alert-link(href=learnMore, target="_blank") #{t('proposal-article.article.alert.learn-more')}
 
-
+  - if( !user.country )
+    div.alert.alert-info.system-alert
+      p #{t('settings.country-warning.message')}
+      p
+        a.alert-link(href='/settings/profile') #{t('settings.country-warning.link')}
+  
   article.proposal.commentable-container
     //- .meta-information
     //-   a.meta-item.meta-location(href="#") Buenos Aires, Argentina
