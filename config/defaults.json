@@ -98,7 +98,7 @@
   "googleAnalyticsTrackingId": "",
   "rssEnabled": true,
   "commentsPerPage": 0,
-  "spamLimit": 5,
+  "spamLimit": false,
   "frequentlyAskedQuestions": false,
   "termsOfService": false,
   "privacyPolicy": false,
