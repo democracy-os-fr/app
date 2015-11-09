@@ -23,7 +23,12 @@
       .form-group
         label= t('signup.retype-password')
         input.form-control(type='password', name='re_password', tabindex=5, placeholder=t('password.repeat'), validate='required same:password')
-      .form-group: button.btn.btn-success.btn-block.btn-lg(tabindex=6)=t('signup.now')
+      .form-group
+        label #{t('settings.country')}
+        #prefetch
+          input(type='hidden', id='country', name='country', validate='required')
+          input.typeahead.form-control(type='text', id='th-country' name='th-country', spellcheck='false', placeholder=t('settings.country'), tabindex=6)
+      .form-group: button.btn.btn-success.btn-block.btn-lg(tabindex=7)=t('signup.now')
       .form-group
         - var tos = config.termsOfService;
         - var pp = config.privacyPolicy;

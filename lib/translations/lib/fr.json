@@ -321,5 +321,11 @@
   "validators.min-length.singular": "Doit comporter 1 caractère au minimum",
   "validators.not.match": "Aucun résultat",
   "validators.password.not.match": "Les mots de passe ne correspondent pas",
-  "validators.required": "requis"
+  "validators.required": "requis",
+  "settings.country": "Pays",
+  "data.title": "Statistiques",
+  "data.home": "Tableau de bord",
+  "data.user": "Utilisateurs",
+  "settings.country-warning.message": "Aidez-nous à améliorer la plateforme. Complétez votre profil.",
+  "settings.country-warning.link": "Complétez votre profil."
 }

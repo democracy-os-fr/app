@@ -346,5 +346,8 @@
   "validators.min-length.singular": "Debe tener al menos 1 caracter",
   "validators.not.match": "No coinciden",
   "validators.password.not.match": "Las contraseñas no coinciden",
-  "validators.required": "Requerido"
+  "validators.required": "Requerido",
+  "settings.country": "País",
+  "settings.country-warning.message": "Ayudanos a mejor esta plataforma.",
+  "settings.country-warning.link": "Completa tu perfíl."
 }
