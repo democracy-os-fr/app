@@ -348,5 +348,10 @@
   "validators.not.match": "No match",
   "validators.password.not.match": "Passwords do not match",
   "validators.required": "Required",
-  "admin-topics-form.label.d21" : "Democracy 2.1 poll ID"
+  "admin-topics-form.label.d21" : "Democracy 2.1 poll ID",
+  "validators.required": "Required",
+  "settings.country": "Country",
+  "data.title": "Statistics",
+  "data.home": "Dashboard",
+  "data.user": "Users"
 }

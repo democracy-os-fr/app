@@ -18,7 +18,11 @@
       .form-group
         label #{t('settings.locale')}
         select.form-control(id='locale', name='locale', tabindex=4)
-        //- input.form-control(type='text', id="lastName", name='lastName', tabindex=2, placeholder=t('settings.last-name'), value='#{user.lastName}', validate='required lastname')
+      .form-group
+        label #{t('settings.country')}
+        #prefetch
+          input(type='hidden', id='country', name='country', value='#{user.country}')
+          input.typeahead.form-control(type='text', id='th-country', autocomplete='off', spellcheck='false', value=user.countryName(), placeholder=t('settings.country'), tabindex=5)
       .form-group.profile-picture
         .image-container
           img(src=user.profilePicture(), width="65")

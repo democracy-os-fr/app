@@ -1,0 +1,13 @@
+{
+  "name": "data-country",
+  "description": "DemocracyOS country code collection",
+  "dependencies": {
+    "visionmedia/debug": "^2.1.3",
+    "component/t": "1.0.0"
+  },
+  "scripts": [
+    "index.js",
+    "data.js"
+  ],
+  "main": "data.js"
+}
