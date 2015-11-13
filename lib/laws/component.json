@@ -1,0 +1,15 @@
+{
+  "name": "laws",
+  "description": "Collection of laws",
+  "locals": [
+    "citizen",
+    "request",
+    "stateful",
+    "debug"
+  ],
+  "scripts": [
+    "laws.js",
+    "proto.js"
+  ],
+  "main": "laws.js"
+}

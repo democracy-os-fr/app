@@ -28,11 +28,11 @@ Please refer to the [Installation](https://github.com/DemocracyOS/app/wiki/Insta
 
 ## Contributing
 
-Please see [CONTRIBUTING.md](https://github.com/DemocracyOS/app/blob/development/CONTRIBUTING.md) for further details.
+Please see [CONTRIBUTING.md](https://github.com/DemocracyOS/app/blob/master/CONTRIBUTING.md) for further details.
 
 ## Contributors
 
-See [CONTRIBUTORS.md](https://github.com/DemocracyOS/app/blob/development/CONTRIBUTORS.md) to get to know the DemocracyOS team and contributors.
+See [CONTRIBUTORS.md](https://github.com/DemocracyOS/app/blob/master/CONTRIBUTORS.md) to get to know the DemocracyOS team and contributors.
 
 ## Links
 
