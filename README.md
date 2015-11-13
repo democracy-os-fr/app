@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # DemocracyOS [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-=======
-# DemocracyOS [![Deploy](https://www.herokucdn.com/deploy/button.png)](http://bit.ly/1PGomtT)
->>>>>>> DemocracyOS/master
 [![Dependencies](https://david-dm.org/DemocracyOS/app.svg)](https://david-dm.org/DemocracyOS/app.svg)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/DemocracyOS/app)
 [![Code Climate](https://codeclimate.com/github/DemocracyOS/app/badges/gpa.svg)](https://codeclimate.com/github/DemocracyOS/app)
@@ -11,11 +7,10 @@ DemocracyOS is an online space for deliberation and voting on political proposal
 
 Check out the [live DemocracyOS demo](http://demo.democracyos.org).
 
-![DemocracyOS](https://i.cloudup.com/F7G3UjbWBx.gif)
-
+![DemocracyOS](https://cldup.com/5UCVpUnOhO.png)
 
 ## Installation
-Please refer to the [Installation](https://github.com/DemocracyOS/app/wiki/Installation) wiki page for detailed instructions on how to install and setup your instance of DemocracyOS.
+Please refer to the [Installation](http://docs.democracyos.org/install.html) wiki page for detailed instructions on how to install and setup your instance of DemocracyOS.
 
 ## Current DemocracyOS deployments
 
@@ -40,10 +35,11 @@ See [CONTRIBUTORS.md](https://github.com/DemocracyOS/app/blob/master/CONTRIBUTOR
 
 ## Links
 
-* [DemocracyOS official site](http://www.democracyos.org). The project's official site.
+* [DemocracyOS official site](http://democracyos.org). The project's official site.
+* [DemocracyOS official documentation site](http://docs.democracyos.org). The project's official site.
 * [DemocracyOS mailing list](https://groups.google.com/forum/#!forum/democracyos-app): questions about DemocracyOS exclusively. For bug reports or feature requests please use the project's [Issues](https://github.com/DemocracyOS/app/issues).
 * [DemocracyOS chat room](https://gitter.im/democracyos/app/).
-* [Democracia en Red](http://www.democraciaenred.org): The `Net Democracy Foundation` official site.
+* [Democracia en Red](http://democraciaenred.org): The `Net Democracy Foundation` official site.
 
 ## Browser support
 
