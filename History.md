@@ -1,4 +1,31 @@
 
+1.0.5 / 2015-11-30
+==================
+
+  * Specify all css dependencies on package.json #1133
+
+1.0.4 / 2015-11-26
+==================
+
+  * Fix build error #1153
+  * Fix signin redirect #1139
+  * Update Galician translations #1151 (@dalareo)
+
+1.0.3 / 2015-11-18
+==================
+
+  * Fix word breaking on comment-boxes #1144
+
+1.0.2 / 2015-11-18
+==================
+
+  * Add Romanian language #1134 Thanks @alexproca!
+  * Remove unsued local libs #1130
+  * Add Node.js 4.0 requirement #1114
+  * Add and enforce new Styleguide #1127
+  * Remove Google+ share button
+  * Fix notification parameters overwriting #1122
+
 1.0.1 / 2015-10-30
 ==================
 
