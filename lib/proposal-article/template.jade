@@ -74,7 +74,7 @@
             
     //- D21 Frame
     - if (proposal.frameId)
-      iframe(src="https://www.d21.me/embed/e.html?v=#{proposal.frameId}&caption=Vote", width="100%", height="250", frameborder="0", allowfullscreen)
+      iframe.d21(src="https://www.d21.me/embed/e.html?v=#{proposal.frameId}&caption=Vote", width="100%", height="250", frameborder="0", allowfullscreen)
       
     //- Article participant
     .participants(class=proposal.votable ? '' : 'hide')
