@@ -35,6 +35,8 @@
     "url": "",
     "token": "",
     "mailer": {
+      "name": "The DemocracyOS Team",
+      "email": "no-reply@democracyos.org",
       "service": "",
       "auth": {
         "user": "",
@@ -109,7 +111,6 @@
   "visibility": "visible",
   "usersWhitelist": false,
   "multiForum": false,
-  "feedsLimit": 10,
   "tweetText": "",
   "forceSafeImageURLs": true,
   "segmentKey": "",
@@ -126,6 +127,7 @@
     "nl",
     "pl",
     "pt",
+    "ro",
     "ru",
     "sq",
     "sv",

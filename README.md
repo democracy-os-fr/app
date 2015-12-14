@@ -1,4 +1,4 @@
-# DemocracyOS [![Deploy](https://www.herokucdn.com/deploy/button.png)](http://bit.ly/1KvH82I)
+# DemocracyOS [![Deploy](https://www.herokucdn.com/deploy/button.png)](http://bit.ly/1iHAcWz)
 [![Dependencies](https://david-dm.org/DemocracyOS/app.svg)](https://david-dm.org/DemocracyOS/app.svg)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/DemocracyOS/app)
 [![Code Climate](https://codeclimate.com/github/DemocracyOS/app/badges/gpa.svg)](https://codeclimate.com/github/DemocracyOS/app)
@@ -7,11 +7,10 @@ DemocracyOS is an online space for deliberation and voting on political proposal
 
 Check out the [live DemocracyOS demo](http://demo.democracyos.org).
 
-![DemocracyOS](https://i.cloudup.com/F7G3UjbWBx.gif)
-
+![DemocracyOS](https://cldup.com/5UCVpUnOhO.png)
 
 ## Installation
-Please refer to the [Installation](https://github.com/DemocracyOS/app/wiki/Installation) wiki page for detailed instructions on how to install and setup your instance of DemocracyOS.
+Please refer to the [Installation](http://docs.democracyos.org/install.html) wiki page for detailed instructions on how to install and setup your instance of DemocracyOS.
 
 ## Current DemocracyOS deployments
 
@@ -24,22 +23,23 @@ Please refer to the [Installation](https://github.com/DemocracyOS/app/wiki/Insta
 * [Barcelona en Comu](http://participa.confluenciacodietic.cat/): Barcelona en Comu's participatory decision-making platform.
 * [PAMI](http://debatics.pami.org.ar/): The largest healthcare program for elderly peolpe opens its technical decisions.
 * [Cambridge City's Councillor Nadeem Mazen](http://nadeemmazen.democracyos.com/): Councillor Nadeem Mazen's official DemocracyOS.
-* [Ukrainian Choice](http://ukrainianchoice.herokuapp.com/): Official deployment of DemocracyOS Ukraine. 
+* [Ukrainian Choice](http://ukrainianchoice.herokuapp.com/): Official deployment of DemocracyOS Ukraine.
 
 ## Contributing
 
-Please see [CONTRIBUTING.md](https://github.com/DemocracyOS/app/blob/development/CONTRIBUTING.md) for further details.
+Please see [CONTRIBUTING.md](https://github.com/DemocracyOS/app/blob/master/CONTRIBUTING.md) for further details.
 
 ## Contributors
 
-See [CONTRIBUTORS.md](https://github.com/DemocracyOS/app/blob/development/CONTRIBUTORS.md) to get to know the DemocracyOS team and contributors.
+See [CONTRIBUTORS.md](https://github.com/DemocracyOS/app/blob/master/CONTRIBUTORS.md) to get to know the DemocracyOS team and contributors.
 
 ## Links
 
-* [DemocracyOS official site](http://www.democracyos.org). The project's official site.
+* [DemocracyOS official site](http://democracyos.org). The project's official site.
+* [DemocracyOS official documentation site](http://docs.democracyos.org). The project's official site.
 * [DemocracyOS mailing list](https://groups.google.com/forum/#!forum/democracyos-app): questions about DemocracyOS exclusively. For bug reports or feature requests please use the project's [Issues](https://github.com/DemocracyOS/app/issues).
-* [DemocracyOS chat room](https://gitter.im/democracyos/app/). 
-* [Democracia en Red](http://www.democraciaenred.org): The `Net Democracy Foundation` official site.
+* [DemocracyOS chat room](https://gitter.im/democracyos/app/).
+* [Democracia en Red](http://democraciaenred.org): The `Net Democracy Foundation` official site.
 
 ## Browser support
 
